@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:id="@+id/darkThemeToggle"
+        android:title="@string/dark_theme"
+        android:defaultValue="true"
+        android:summaryOn="@string/enabled_darktheme"
+        android:summaryOff="@string/disabled_darktheme"
+        android:icon="@drawable/dark_mode_icon"
+        android:key="@string/dark_mode_key"/>
+
+
+
+</PreferenceScreen>
