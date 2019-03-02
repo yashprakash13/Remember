@@ -1,6 +1,9 @@
 ### Remember
 An app that intends to help you enhance your vocabulary by letting you keep track of all the new words you learn. 
 
+#### Get it on Google Play:
+<a href='https://play.google.com/store/apps/details?id=tech.pcreate.remember' target='_blank'><img height='76' style='border:0px;height:76px;' src='https://user-images.githubusercontent.com/34805906/53680064-d8025480-3cfb-11e9-946b-b8121d6d6e0e.png' border='0' /></a>
+
 #### Implementations:
 * Room database to store ( id, Word Name, Meaning(can be null)) from the user. 
   * A few default words are already provided within the app to demonstrate the paging functionality.
