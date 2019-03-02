@@ -9,5 +9,12 @@
         app:showAsAction="never"
         android:contentDescription="@string/settings"/>
 
+    <item
+        android:id="@+id/export_btn"
+        android:orderInCategory="200"
+        android:title="@string/export_all_words"
+        app:showAsAction="never"
+        android:contentDescription="@string/export_into_text_file"/>
+
 
 </menu>

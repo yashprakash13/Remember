@@ -31,4 +31,7 @@ public interface WordDao {
 
     @Delete
     void deleteWord(Word word);
+
+    @Query("Select * from word_db")
+    List<Word> getAllWords();
 }

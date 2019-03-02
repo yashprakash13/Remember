@@ -3,20 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="tech.pcreate.remember">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning"
-        android:fullBackupContent="@xml/backup_descriptor">
-        <activity android:name=".settings.SettingsActivity"
-            android:parentActivityName=".wordsList.WordsListActivity"
-            android:label="@string/settings">
-
-        </activity>
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".exportWords.ExportActivity"
+            android:parentActivityName=".wordsList.WordsListActivity"></activity>
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:label="@string/settings"
+            android:parentActivityName=".wordsList.WordsListActivity"></activity>
         <activity
             android:name=".wordsList.WordsListActivity"
             android:label="@string/app_name"

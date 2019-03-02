@@ -23,6 +23,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import tech.pcreate.remember.R;
 import tech.pcreate.remember.database.Word;
+import tech.pcreate.remember.exportWords.ExportActivity;
 import tech.pcreate.remember.newWord.NewWordDialogFragment;
 import tech.pcreate.remember.settings.SettingsActivity;
 import tech.pcreate.remember.utils.RecyclerViewDividerItem;
@@ -117,6 +118,8 @@ public class WordsListActivity extends AppCompatActivity implements SharedPrefer
 
         if (id == R.id.action_settings) {
             startActivity(new Intent(this, SettingsActivity.class));
+        }else if (id == R.id.export_btn){
+            startActivity(new Intent(this, ExportActivity.class));
         }
         return super.onOptionsItemSelected(item);
     }

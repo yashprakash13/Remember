@@ -22,4 +22,11 @@
     <string name="are_you_sure">Are you sure?</string>
     <string name="click_again_to_edit">Click again to edit:</string>
     <string name="search">Search</string>
+    <string name="export_all_words">Export All Words</string>
+    <string name="export_into_text_file">Export Into Text File</string>
+    <string name="export_in_progress">Export in progress...</string>
+    <string name="successful_export_message">Words Successfully exported!</string>
+    <string name="storage_per_needed">Storage Permission is needed to save file.</string>
+    <string name="file_saved_to">File saved to</string>
+    <string name="export_words">Export Words</string>
 </resources>

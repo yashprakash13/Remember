@@ -49,6 +49,10 @@ public class WordRepository {
         return new GetWordAsync(wordDao).execute(id).get();
     }
 
+    public List<Word> getAllWords() {
+        return wordDao.getAllWords();
+    }
+
     private static class GetWordAsync extends AsyncTask<Integer, Void, Word>{
         private WordDao wordDao;
 

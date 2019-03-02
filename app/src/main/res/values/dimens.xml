@@ -13,5 +13,6 @@
     <dimen name="margin_larger">17dp</dimen>
     <dimen name="margin_top_very_large">60dp</dimen>
     <dimen name="stroke_dimen">1dp</dimen>
+    <dimen name="larger_font_size">19sp</dimen>
 
 </resources>
